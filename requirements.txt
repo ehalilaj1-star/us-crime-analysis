@@ -1,0 +1,10 @@
+# Pin scikit-learn to the SAME version your Colab notebook used.
+# The save cell prints it, and it is stored inside the model bundle.
+# If the versions differ, loading the model may warn or fail.
+# Check in Colab with:  import sklearn; print(sklearn.__version__)
+scikit-learn==1.8.0
+pandas==2.2.2
+numpy==2.1.3
+joblib==1.4.2
+Flask==3.1.3
+gunicorn==23.0.0
